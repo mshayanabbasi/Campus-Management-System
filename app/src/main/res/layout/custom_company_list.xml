@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Company Name"
+        android:id="@+id/nameCompanys"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:layout_below="@+id/nameCompanys"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:id="@+id/typeCompanys"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="type"
+        />
+    <TextView
+        android:layout_below="@+id/typeCompanys"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:id="@+id/addressCompanys"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="address"
+        />
+    <TextView
+        android:layout_below="@+id/addressCompanys"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:id="@+id/contactCompanys"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="contact"
+        />
+
+    <Button
+        android:layout_below="@+id/contactCompanys"
+    android:textColor="@color/white"
+    android:background="@color/colorPrimaryDark"
+
+    android:id="@+id/btnDelete"
+    android:layout_width="180dp"
+    android:layout_height="wrap_content"
+    android:text="Delete"
+    />
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/contactCompanys"
+        android:layout_toEndOf="@+id/btnDelete"
+        android:id="@+id/buttonJobs"
+        android:layout_width="180dp"
+        android:text="View Jobs"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_margin="5dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="job"
+                android:id="@+id/jobsAd"
+                />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"
+                android:layout_below="@+id/jobsAd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="jobtype"
+                android:id="@+id/typeJobsAd"
+                />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"
+                android:layout_below="@id/typeJobsAd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="jobExperience"
+                android:id="@+id/experienceJobsAd"
+                />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"
+                android:layout_below="@+id/experienceJobsAd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="job shift"
+                android:id="@+id/shiftJobsAd"
+                />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"
+                android:layout_below="@+id/shiftJobsAd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="job salary"
+                android:id="@+id/salaryJobsAd"
+                />
+
+            <Button
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/white"
+               android:background="@color/colorPrimaryDark"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/salaryJobsAd"
+                android:id="@+id/btnJobDel"
+                android:text="Delete"
+                />
+            <Button
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/btnJobDel"
+                android:layout_below="@+id/salaryJobsAd"
+                android:text="Applied Student List"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimaryDark"
+                android:id="@+id/appliedStudents"
+                />
+
+
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+</LinearLayout>

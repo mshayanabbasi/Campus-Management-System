@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.campussystem">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LogInSignUp.LogIn">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LogInSignUp.SignUpActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".StudentsMoreDetail" />
+        <activity android:name=".CompanyPanel.ComapnyMoreDetails" />
+        <activity android:name=".CompanyPanel.CompanyActivity" />
+        <activity
+            android:name=".CompanyPanel.CompanyMain.Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".CompanyPanel.CompanyMain.AddJob" />
+        <activity
+            android:name=".StudentsActivity"
+            android:label="@string/title_activity_students"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".StudentFragments.AppliedActivity" />
+        <activity android:name=".CompanyPanel.CompanyMain.AppliedStudentList" />
+        <activity
+            android:name=".AdminPanel.Admin"
+            android:label="@string/title_activity_admin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".adminpanel.Admins"
+            android:label="@string/title_activity_admins"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".StudentFragments.NewJobActivity" />
+        <activity android:name=".adminpanel.AdminJobActivity" />
+        <activity android:name=".adminpanel.AdminAppliedStudentList" />
+        <activity android:name=".StudentFragments.NewApplyActivity" />
+        <activity android:name=".SlotActivity"></activity>
+    </application>
+
+</manifest>

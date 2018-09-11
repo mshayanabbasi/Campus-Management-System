@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "314809315651",
+    "firebase_url": "https://campussystem-46d47.firebaseio.com",
+    "project_id": "campussystem-46d47",
+    "storage_bucket": "campussystem-46d47.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314809315651:android:2c08e2cd8eba84a1",
+        "android_client_info": {
+          "package_name": "com.campussystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "314809315651-jgknsek16vck53o5r4hun19s9amnoskb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.campussystem",
+            "certificate_hash": "385638f24f79b296979e684030c1d5770a40c6aa"
+          }
+        },
+        {
+          "client_id": "314809315651-ti0fucn02jssjvjeea1jejt8j3ngenls.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY5J2piZ1RY8ENP4Wg1sGirN8KFy3KmcA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "314809315651-ti0fucn02jssjvjeea1jejt8j3ngenls.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

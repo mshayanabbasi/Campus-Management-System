@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.campussystem.StudentFragments.NewApplyActivity">
+
+
+    <TextView
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="job"
+        android:id="@+id/jobNew"
+        />
+    <TextView
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/jobNew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jobtype"
+        android:id="@+id/typeJobNew"
+        />
+    <TextView
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/typeJobNew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jobExperience"
+        android:id="@+id/experienceJobNew"
+        />
+    <TextView
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/experienceJobNew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="job shift"
+        android:id="@+id/shiftJobNew"
+        />
+    <TextView
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/shiftJobNew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="job salary"
+        android:id="@+id/salaryJobNew"
+        />
+
+    <Button
+        android:textColor="@color/white"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/salaryJobNew"
+        android:id="@+id/btnApplyNew"
+        android:text="Applied"
+
+        android:layout_centerHorizontal="true"
+
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnApplyNew"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/statusNew"
+        android:textSize="20dp"
+
+        />
+
+
+</RelativeLayout>

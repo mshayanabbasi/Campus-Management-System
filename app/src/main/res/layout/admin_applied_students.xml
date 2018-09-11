@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:id="@+id/nameStudentApp"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:layout_below="@+id/nameStudentApp"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/qualificationStudentApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Qualification"
+        />
+    <TextView
+        android:layout_below="@+id/qualificationStudentApp"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/universityStudentApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="University"
+        />
+    <TextView
+        android:layout_below="@+id/universityStudentApp"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/studentGpaApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GPA"
+        />
+    <Button
+        android:id="@+id/btnDeleteApplied"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/studentGpaApp"
+        android:text="Delete"
+
+
+        />
+
+
+</RelativeLayout>

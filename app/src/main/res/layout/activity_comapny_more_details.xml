@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.campussystem.ComapnyMoreDetails">
+
+    <TextView
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="More Detals Of Company"
+        android:id="@+id/moreDetails"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:id="@+id/cName"
+        android:layout_below="@+id/moreDetails"
+        />
+
+    <TextView
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+       android:layout_below="@+id/cName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailCompany"
+        android:text="email"
+        />
+    <EditText
+        android:textColorHint="@color/colorPrimary"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/emailCompany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/address"
+        android:hint="Address"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:textColorHint="@color/colorPrimary"
+        android:layout_below="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/companyType"
+        android:hint="Comapny Type"
+        android:textSize="20dp"
+        />
+
+
+    <EditText
+        android:textColorHint="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/companyType"
+        android:id="@+id/editTextContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Contact"/>
+
+
+    <Button
+        android:textColor="@color/white"
+        android:background="@color/colorPrimaryDark"
+          android:layout_centerHorizontal="true"
+        android:layout_below="@+id/editTextContact"
+        android:id="@+id/buttonRegister"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Registered"
+        android:layout_marginTop="20dp"
+        />
+
+    <ProgressBar
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressbarCompany"
+        />
+
+
+
+
+</RelativeLayout>

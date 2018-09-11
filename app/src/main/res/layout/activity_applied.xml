@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.campussystem.StudentFragments.AppliedActivity">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="job"
+       android:id="@+id/labelJobs"
+       android:textSize="30dp"
+       />
+
+    <TextView
+        android:layout_marginLeft="150dp"
+        android:textSize="30dp"
+        android:layout_toEndOf="@+id/labelJobs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="job"
+        android:id="@+id/jobs"
+        />
+
+    <TextView
+        android:textSize="30dp"
+        android:layout_below="@+id/jobs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jobtype"
+        android:id="@+id/labelTypeJobs"
+        />
+
+    <TextView
+        android:layout_marginLeft="90dp"
+        android:layout_toEndOf="@+id/labelTypeJobs"
+        android:textSize="30dp"
+        android:layout_below="@+id/jobs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jobtype"
+        android:id="@+id/typeJobs"
+        />
+    <TextView
+        android:textSize="30dp"
+        android:layout_below="@id/typeJobs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Experience"
+        android:id="@+id/labelExperienceJobs"
+        />
+
+    <TextView
+        android:layout_marginLeft="35dp"
+        android:layout_toEndOf="@+id/labelExperienceJobs"
+        android:textSize="30dp"
+        android:layout_below="@id/typeJobs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Experience"
+        android:id="@+id/experienceJobs"
+        />
+    <TextView
+        android:textSize="30dp"
+        android:layout_below="@+id/experienceJobs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="job shift"
+        android:id="@+id/labelShiftJobs"
+        />
+
+    <TextView
+        android:layout_marginLeft="80dp"
+        android:layout_toEndOf="@+id/labelShiftJobs"
+        android:textSize="30dp"
+        android:layout_below="@+id/experienceJobs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="job shift"
+        android:id="@+id/shiftJobs"
+        />
+
+    <TextView
+        android:textSize="30dp"
+        android:layout_below="@+id/shiftJobs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="job salary"
+        android:id="@+id/labelSalaryJobs"
+        />
+
+
+
+
+    <TextView
+        android:layout_marginLeft="70dp"
+        android:layout_toEndOf="@+id/labelSalaryJobs"
+        android:textSize="30dp"
+        android:layout_below="@+id/shiftJobs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="job salary"
+        android:id="@+id/salaryJobs"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/salaryJobs"
+        android:id="@+id/btnApplied"
+        android:text="Applied"
+        android:layout_centerHorizontal="true"
+
+        />
+
+
+</RelativeLayout>

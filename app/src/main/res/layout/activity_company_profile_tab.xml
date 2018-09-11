@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Company Profile"
+        android:textSize="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+<TextView
+    android:textColor="@color/colorPrimaryDark"
+    android:layout_marginLeft="10dp"
+    style="@style/AlertDialog.AppCompat"
+    android:layout_marginTop="130dp"
+    android:id="@+id/nameLabel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=" Name"
+    android:textSize="25dp"
+    />
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="130dp"
+        android:id="@+id/companyName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Company name"
+        android:layout_toEndOf="@+id/nameLabel"
+        android:textSize="25dp"
+        android:layout_marginLeft="40dp"
+        />
+    <TextView
+        style="@style/AlertDialog.AppCompat"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/nameLabel"
+        android:id="@+id/companyLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Type"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/companyName"
+        android:id="@+id/companyType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Company name"
+        android:layout_toEndOf="@+id/companyLabel"
+        android:textSize="25dp"
+        android:layout_marginLeft="50dp"
+        />
+
+    <TextView
+        style="@style/AlertDialog.AppCompat"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/companyLabel"
+        android:text="address"
+        android:textSize="25dp"
+        android:id="@+id/addressLabel"
+        />
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/companyType"
+        android:layout_toEndOf="@+id/addressLabel"
+        android:id="@+id/address"
+        android:text="address"
+        android:textSize="25dp"
+
+        />
+
+</RelativeLayout>

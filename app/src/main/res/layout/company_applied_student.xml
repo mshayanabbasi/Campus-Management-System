@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:id="@+id/nameStudentComp"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:layout_below="@+id/nameStudentComp"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/qualificationStudentComp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Qualification"
+        />
+    <TextView
+        android:layout_below="@+id/qualificationStudentComp"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/universityStudentComp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="University"
+        />
+    <TextView
+        android:layout_below="@+id/universityStudentComp"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/studentGpaComp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GPA"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/studentGpaComp"
+        android:text="Reject"
+        android:id="@+id/btnReject"
+        />
+    <Button
+        android:layout_marginLeft="20dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/btnReject"
+        android:layout_below="@+id/studentGpaComp"
+        android:text="Accept"
+        android:id="@+id/btnAccept"
+
+        />
+
+
+</RelativeLayout>
